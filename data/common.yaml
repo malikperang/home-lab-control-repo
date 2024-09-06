@@ -1,2 +1,4 @@
 ---
 message: "This node is using common data"
+admin_password: '4dm1n321*'  # Example encrypted password
+motd_message: 'Welcome %{user}. Today is %{current_datetime}.'
