@@ -10,3 +10,7 @@ hierarchy:
     paths:
       - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
+  - name: "Common data"
+    data_hash: yaml_data
+    paths:
+      - "common.yaml"
