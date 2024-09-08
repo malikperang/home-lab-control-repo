@@ -5,10 +5,6 @@ defaults:
   datadir: "data"
 
 hierarchy:
-  - name: "Git Control Repository"
-    path: "git://github.com/malikperang/home-lab-control-repo.git"
-    branch: "dev"
-    environment: "development"
   - name: "Yaml backend"
     data_hash: yaml_data
     paths:
